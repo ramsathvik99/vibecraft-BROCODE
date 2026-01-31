@@ -1,0 +1,6 @@
+streamlit
+SpeechRecognition
+deep-translator
+edge-tts
+pygame
+pyaudio
