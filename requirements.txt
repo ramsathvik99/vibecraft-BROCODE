@@ -1,6 +1,2 @@
 streamlit
-SpeechRecognition
-deep-translator
-edge-tts
-pygame
-pyaudio
+googletrans==4.0.0-rc1
