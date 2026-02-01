@@ -5,6 +5,24 @@
 Live Language Translation is a real-time, two-way speech translation system designed to remove language barriers during live conversations. It integrates cloud-based AI services with a reliable local processing engine to deliver fast, accurate, and natural translations. The application features a modern glassmorphic interface built with Streamlit, ensuring a clean, intuitive, and premium user experience.
 
 ---
+## System Architecture Diagram
+
+The following diagram illustrates the end-to-end flow of the Live Language Translation system.
+
+Microphone Input  
+→ SpeechRecognition (Speech-to-Text)  
+→ Text Normalization Engine  
+→ Neural Translation (deep-translator)  
+→ Neural Text-to-Speech (Edge-TTS)  
+→ Speaker Output  
+
+UI Layer (Streamlit)  
+• Language & Accent Selection  
+• Station A / Station B Control  
+• Live Captions & History  
+
+> Note: A visual architecture diagram is provided in `/docs/architecture.png`.
+
 
 ## System Architecture: Inputs & Outputs
 
@@ -121,5 +139,7 @@ streamlit run transulator4_Pro.py
    * Use History Log to review full conversation
 
 ---
+<img width="1536" height="1024" alt="b9dfa267-dc8d-4421-8ebf-66bb3373979b" src="https://github.com/user-attachments/assets/31ea3a65-782b-442c-ac9a-a88f67a9d4a9" />
 
 Nova Transmit Pro delivers fast, natural, and reliable two-way translation—turning multilingual communication into a seamless experience.
+
