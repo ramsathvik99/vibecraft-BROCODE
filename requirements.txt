@@ -4,3 +4,12 @@ streamlit>=1.32.0
 deep-translator>=1.11.4
 googletrans==4.0.0rc1
 requests>=2.31.0
+speechrecognition
+pyaudio
+pywin32
+winsound
+whisper
+ffmpeg
+torch
+tensorflow
+sounddevice
